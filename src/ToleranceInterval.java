@@ -33,6 +33,7 @@ public class ToleranceInterval {
 
     public boolean isSizeInterval(double size) {
         return size > minSize && size <= maxSize;
+
     }
 }
 
